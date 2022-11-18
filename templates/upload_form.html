@@ -1,0 +1,26 @@
+<html>
+   <head>
+      <style>
+         body{
+            display: flex;
+            flex: 1;
+         }
+         .container{
+            width: 50%;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="container">
+         <form action = "http://localhost:5000/level" method = "POST" 
+            enctype = "multipart/form-data">
+            <input type = "file" name = "file" />
+            <input type = "submit"/>
+         </form>  
+      </div> 
+   </body>
+</html>
